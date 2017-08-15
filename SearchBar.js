@@ -8,11 +8,11 @@ RNSearchBar = ReactNative.requireNativeComponent('RNSearchBar', null);
 
 PropTypes = require('prop-types');
 
-reactCreateClass = require('react-create-class');
+createReactClass = require('create-react-class');
 
 NativeModules = ReactNative.NativeModules;
 
-SearchBar = reactCreateClass({
+SearchBar = createReactClass({
   propTypes: {
     placeholder: PropTypes.string,
     text: PropTypes.string,
